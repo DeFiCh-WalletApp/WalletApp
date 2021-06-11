@@ -105,6 +105,16 @@ class S {
     );
   }
 
+  /// `Masternodes`
+  String get home_masternodes {
+    return Intl.message(
+      'Masternodes',
+      name: 'home_masternodes',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Welcome`
   String get welcome {
     return Intl.message(
@@ -1640,6 +1650,116 @@ class S {
     return Intl.message(
       'Removed liquidity successfull',
       name: 'liquidity_remove_successfull',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Masternode`
+  String get masternode {
+    return Intl.message(
+      'Masternode',
+      name: 'masternode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `State`
+  String get masternode_state {
+    return Intl.message(
+      'State',
+      name: 'masternode_state',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registered`
+  String get masternode_registered {
+    return Intl.message(
+      'Registered',
+      name: 'masternode_registered',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Minted Blocks`
+  String get masternode_minted_blocks {
+    return Intl.message(
+      'Minted Blocks',
+      name: 'masternode_minted_blocks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resign Height`
+  String get masternode_resign_height {
+    return Intl.message(
+      'Resign Height',
+      name: 'masternode_resign_height',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ban Height`
+  String get masternode_ban_height {
+    return Intl.message(
+      'Ban Height',
+      name: 'masternode_ban_height',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Owner Address`
+  String get masternode_owner_address {
+    return Intl.message(
+      'Owner Address',
+      name: 'masternode_owner_address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Operator Address`
+  String get masternode_operator_address {
+    return Intl.message(
+      'Operator Address',
+      name: 'masternode_operator_address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resign TX`
+  String get masternode_resign_tx {
+    return Intl.message(
+      'Resign TX',
+      name: 'masternode_resign_tx',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ban TX`
+  String get masternode_ban_tx {
+    return Intl.message(
+      'Ban TX',
+      name: 'masternode_ban_tx',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hash`
+  String get masternode_hash {
+    return Intl.message(
+      'Hash',
+      name: 'masternode_hash',
       desc: '',
       args: [],
     );

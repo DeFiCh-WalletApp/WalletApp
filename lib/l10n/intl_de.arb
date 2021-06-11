@@ -6,6 +6,7 @@
   "home_liquidity": "Liquidity",
   "home_dex": "DEX",
   "home_tokens": "Tokens",
+  "home_masternodes": "Masternodes",
   "welcome": "Willkommen",
   "loading": "Laden...",
   "next": "Weiter",
@@ -180,6 +181,18 @@
   "liquidity_remove_of": "von",
 
   "liquidity_remove_successfull": "Entfernen war erfolgreich",
+
+  "masternode": "Masternode",
+  "masternode_state": "Zustand",
+  "masternode_registered": "Registriert",
+  "masternode_minted_blocks": "Minted Blocks",
+  "masternode_resign_height": "Resign Height",
+  "masternode_ban_height": "Ban Height",
+  "masternode_owner_address": "Besitzer Adresse",
+  "masternode_operator_address": "Betreiber Adresse",
+  "masternode_resign_tx": "Resign TX",
+  "masternode_ban_tx": "Ban TX",
+  "masternode_hash": "Hash",
 
   "biometric_auth_error": "Biometric Authentification Error"
 }

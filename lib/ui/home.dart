@@ -8,6 +8,7 @@ import 'package:saiive.live/helper/version.dart';
 import 'package:saiive.live/service_locator.dart';
 import 'package:saiive.live/ui/dex/dex.dart';
 import 'package:saiive.live/ui/liquidity/liquidity.dart';
+import 'package:saiive.live/ui/masternode/masternodes.dart';
 import 'package:saiive.live/ui/settings/settings.dart';
 import 'package:saiive.live/ui/tokens/tokens.dart';
 import 'package:saiive.live/ui/wallet/wallet_home.dart';
@@ -41,7 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
       _NavigationEntry(icon: Icon(Icons.account_balance_wallet), label: S.of(context).home_wallet, page: WalletHomeScreen()),
       _NavigationEntry(icon: Icon(Icons.pie_chart), label: S.of(context).home_liquidity, page: LiquidityScreen()),
       _NavigationEntry(icon: Icon(Icons.compare_arrows), label: S.of(context).home_dex, page: DexScreen()),
-      _NavigationEntry(icon: Icon(Icons.radio_button_unchecked), label: S.of(context).home_tokens, page: TokensScreen())
+      _NavigationEntry(icon: Icon(Icons.radio_button_unchecked), label: S.of(context).home_tokens, page: TokensScreen()),
+      _NavigationEntry(icon: Icon(Icons.dns), label: S.of(context).home_masternodes, page: MasternodesScreen()),
     ];
 
     if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
